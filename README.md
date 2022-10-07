@@ -1,1 +1,6 @@
-# Gait-Pattern-Nano-33-BLE-Sense
+# GitHubTemplate
+
+# Kurzbeschreibung des Projekts
+
+# Verzeichnisstruktur
+
