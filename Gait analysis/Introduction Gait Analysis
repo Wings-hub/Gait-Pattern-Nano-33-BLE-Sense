@@ -1,0 +1,16 @@
+Introduction:
+
+Walking is the major movement for a human locomotion. The challanges during this locomotion can be caused by instability, disorder or incoordination. If human face such
+challanges it can cost a lot more energy to perform due to the anormalies. It also overloads the muscles and can cause damage to joint structures and skin. To analyze 
+movements and identify it as walking an andruino Nano chip is suitable. If right positioned it detects and measures right kinematic parameters such as angle, angular 
+velocity and accelation. Joints like knee, hip and ankles will be generating a 3D kinematic model so that the gait can be analyzed.
+
+Gait analysis:
+
+Human gait analysis is an important topic in pedestrian navigation and elderly care. Identifying gait phases is important for using human gait for pedestrian navigation
+and tracking. Most of the existing gait phase detection methods use multiple sensor modules attached to each section of the lower body. In this paper, the feasibility 
+of detecting gait phases with a single inertial measurement unit (IMU) in the subject's pocket is discussed. The motion of the thigh is calculated by fusing 
+accelerometer and gyroscopic data from the IMU. The experimental results show that most of the most important gait phases, e.g. For example, initial contact, stress 
+response, mean stance, final stance, forward swing, and swing can be identified from movement of a thigh sensed by an IMU. It was also found that offside leg motion 
+can also be estimated from the fused IMU data. In this paper, a method is presented that can be used to detect all the important phases of the human gait cycle when 
+walking based on the movement of a thigh.
