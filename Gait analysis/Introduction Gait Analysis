@@ -5,7 +5,7 @@ challanges it can cost a lot more energy to perform due to the anormalies. It al
 movements and identify it as walking an andruino Nano chip is suitable. If right positioned it detects and measures right kinematic parameters such as angle, angular 
 velocity and accelation. Joints like knee, hip and ankles will be generating a 3D kinematic model so that the gait can be analyzed.
 
-Gait analysis:
+Gait analysis/ Why do we need a healthy Gait pattern:
 
 Human gait analysis is an important topic in pedestrian navigation and elderly care. Identifying gait phases is important for using human gait for pedestrian navigation
 and tracking. Most of the existing gait phase detection methods use multiple sensor modules attached to each section of the lower body. In this paper, the feasibility 
@@ -14,3 +14,30 @@ accelerometer and gyroscopic data from the IMU. The experimental results show th
 response, mean stance, final stance, forward swing, and swing can be identified from movement of a thigh sensed by an IMU. It was also found that offside leg motion 
 can also be estimated from the fused IMU data. In this paper, a method is presented that can be used to detect all the important phases of the human gait cycle when 
 walking based on the movement of a thigh.
+
+
+Human Gait cycle:
+
+Human gait cycle is an essential element in understanding how we move and how our bodies interact with the environment. It is defined as the period starting with an 
+initial floor contact of one heel (Initial Contact) to a similar posture. A gait cycle can be divided into two main phases: Stance and Swing. During Stance, the
+reference foot is in contact with the ground while the other foot is in swing, and Swing is where the reference foot is swinging over the ground while the other 
+foot is in contact with the ground . By studying the eight sub-phases of gait cycle, from Initial Contact to Terminal Swing, we gain invaluable insight into the
+biomechanics of human movement. Understanding a gait cycle is essential for physical therapists, kinesiologists, and engineers looking to improve the quality of life 
+for those with mobility issues.
+
+Thigh Angle:
+
+ In the diagram Abhayasinghe et al. have discussed thepossibility of using data of a thigh mounted IMU (mounted insideThe trouser pocket of the subject) to detect 
+ the movement of the thigh, accurate step detection and that the gyroscopic data provides sufficient information for gait analysis for pedestrian Indoor navigation.
+ This article discusses gait phases are clearly identified from the thigh angle waveform the experimental results show that IMU data were collected withFive young
+ males and five young females: all this with no visual impairment or disability. In the diagram Data were recorded while walking on a level surface carrying
+ the device in one of their trouser pockets that face forward. The phone was placed in the pocket of your clothing so that it remains uprightand its movement in 
+ the pocket is minimal. A video of the delivery man has been released. The IMU was kept vertically in the pocket so that gyroscopic x–axis represent the forward and 
+ backward movement of the thigh, which make the computations easy and less resource demanding. Thigh angle was computed by fusing accelerometer
+ and gyroscope data. If gyroscope x–axis reading is small (<0.03 rads-1) then the thigh angle is calculated by taking arctan of the ratio Az=Ay where Az and Ay 
+ are the z–axis (perpendicular to the thigh and in forward direction as shown in Fig. Reference axis of IMU data) and y–axis (along the thigh upwards) readings of accelerometer. Gravity is the most
+ significant component of this reading and hence the angle calculated from acceleration is accurate. If gyroscopic x–axis reading
+
+ The duration of each sub phase observed in the thigh angle waveform about match with the durations given in  Table I validates the identification of gait
+ phases based on the thigh angle. These durations may be used to double-check the detection of each phase.  The consideration corresponds to a particular sub phase 
+ of the other.  leg. Hence, you should detect phases of a leg. Should be enough to analyze the full gait cycle given the there is no physical infirmity in either leg.
