@@ -5,6 +5,7 @@ challanges it can cost a lot more energy to perform due to the anormalies. It al
 movements and identify it as walking an andruino Nano chip is suitable. If right positioned it detects and measures right kinematic parameters such as angle, angular 
 velocity and accelation. Joints like knee, hip and ankles will be generating a 3D kinematic model so that the gait can be analyzed.
 
+
 Gait analysis/ Why do we need a healthy Gait pattern:
 
 Human gait analysis is an important topic in pedestrian navigation and elderly care. Identifying gait phases is important for using human gait for pedestrian navigation
@@ -25,6 +26,7 @@ foot is in contact with the ground . By studying the eight sub-phases of gait cy
 biomechanics of human movement. Understanding a gait cycle is essential for physical therapists, kinesiologists, and engineers looking to improve the quality of life 
 for those with mobility issues.
 
+
 Thigh Angle:
 
  In the diagram Abhayasinghe et al. have discussed thepossibility of using data of a thigh mounted IMU (mounted insideThe trouser pocket of the subject) to detect 
@@ -35,9 +37,26 @@ Thigh Angle:
  the pocket is minimal. A video of the delivery man has been released. The IMU was kept vertically in the pocket so that gyroscopic x–axis represent the forward and 
  backward movement of the thigh, which make the computations easy and less resource demanding. Thigh angle was computed by fusing accelerometer
  and gyroscope data. If gyroscope x–axis reading is small (<0.03 rads-1) then the thigh angle is calculated by taking arctan of the ratio Az=Ay where Az and Ay 
- are the z–axis (perpendicular to the thigh and in forward direction as shown in Fig. Reference axis of IMU data) and y–axis (along the thigh upwards) readings of accelerometer. Gravity is the most
- significant component of this reading and hence the angle calculated from acceleration is accurate. If gyroscopic x–axis reading
+ are the z–axis (perpendicular to the thigh and in forward direction as shown in Fig. Reference axis of IMU data) and y–axis (along the thigh upwards) readings of accelerometer.
+ Gravity is the most significant component of this reading and hence the angle calculated from acceleration is accurate. 
 
  The duration of each sub phase observed in the thigh angle waveform about match with the durations given in  Table I validates the identification of gait
  phases based on the thigh angle. These durations may be used to double-check the detection of each phase.  The consideration corresponds to a particular sub phase 
- of the other.  leg. Hence, you should detect phases of a leg. Should be enough to analyze the full gait cycle given the there is no physical infirmity in either leg.
+ of the other. Hence, you should detect phases of a leg. Should be enough to analyze the full gait cycle given the there is no physical infirmity in either leg.
+ 
+ 
+ Jumping
+ 
+ 
+Vertical jumping is a typical stretch-shortening cycle movement (SSC), includingpreparatory lengthening and rapid shortening of the muscle–tendon unit (MTU). 
+It is an essential part of many sports, such as basketball, volleyball, and gymnastics, and the performance of this motion directly affects the results of sporting events.
+In the pyramid model of motor development proposed by Seefeldt, vertical jumping is located at the bottom of the pyramid and is the cornerstone of advanced motor skills.
+
+At present, studies of vertical jumping focus on the following aspects: neuromuscular coordination, lower limb stiffness, joint dynamics, arm swing, and age characteristics. A
+research show adults have more feedforward muscle activity than walking. Jumping patterns are different among human of different ages. In order to identify the characteristics of
+people’s development, data from children are often compared with data from adults.Raffalt et al. found children had more intra-subject variability in the intensity of 
+their muscle activity, which indicated that muscle activity patterns of children are inconsistent, and considerable eccentric muscle contraction was involved in the 
+pushing and landing phase, which limited the muscle activity. The performance of vertical jumping reflects
+the comprehensive development level of the whole body, but the neglect of longitudinal research of vertical jumping in preschool is shocking.
+
+
